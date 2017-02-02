@@ -43,7 +43,7 @@ public class AddDummyPostalCodes {
 
 	}
 
-	// Added this stupid comment to the master branch.
+	// Adding a dumb comment to the dumb branch
 
 	System.out.println("Finished adding postal codes to all lanes");
 	FileOutputStream fos = new FileOutputStream("[03]road_network_pc.xml");
