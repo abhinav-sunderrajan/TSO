@@ -43,8 +43,6 @@ public class AddDummyPostalCodes {
 
 	}
 
-	// Adding a dumb comment to the dumb branch
-
 	System.out.println("Finished adding postal codes to all lanes");
 	FileOutputStream fos = new FileOutputStream("[03]road_network_pc.xml");
 	XMLWriter writer = new XMLWriter(fos, format);
