@@ -43,7 +43,8 @@ public class AddDummyPostalCodes {
 
 	}
 
-	// This is the fix1 I have added for branch hotfix3
+	// This is another comment added to issue3 branch
+	// I have added this comment for issue issue3 branch.
 	System.out.println("Finished adding postal codes to all lanes");
 	FileOutputStream fos = new FileOutputStream("[03]road_network_pc.xml");
 	XMLWriter writer = new XMLWriter(fos, format);
